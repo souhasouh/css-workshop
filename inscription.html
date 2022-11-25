@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img  class="img_center"  src="image.png/isaas.png" alt="sfax.png">
+
+        <h1> institue superieure d'administration sfax  </h1>
+        <img  class="img_center" src="image.png/isaas.png.png" alt="sfax.png">
+
+
+        <img class="img_center"   src= "image/logo.png">
+        <nav>
+            <a href=" #"> Actualite </a>
+            <a href="page.html/inscription.html"> inscription </a>
+
+            <a href=" page.html/galerie.html"> galerie</a>
+
+        </nav>
+
+
+
+    </header>
+
+
+
+
+    <form>
+        <fieldset>
+            <legend> inscription etudinat </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname"> Nom:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" id="fname">
+                    
+                    </td>
+                    </tr>
+                     <tr>
+                        <td><label for="nom"> Prenom : </label></td>
+                        <td><input type="text" name="nom" id="nom"></td>
+                    </tr>
+
+
+
+
+                
+                <tr>  
+                    <td>
+                        <label for="birth">  date de naissance: </label>
+                    </td>
+                    <td>  
+                        <input type="date" name="birth"  id="birth"  value="2022">
+                    </td>
+                </tr>
+                <tr>  
+                    <td>  <label>sexe:</label></td>
+                    <td>
+                        <input type="radio" name="sex" id="masculin" cheked value="m">
+                        <label for="masculin"> masculin</label>
+                        <input type="radio" name="sex" id="feminin"  value="f">
+                        <label for="feminin">feminin</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>  <label>   pays :</label></td>
+                    <td>  
+                        <select name="pays" id="pays" size="3">
+                            <option value="" disabled>aucune valeur</option>
+                            <option value="tn">Tunisie</option>
+                            <option value="fr">France</option>
+                            <option value="en">Angleterre</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> langues:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="ar" name="long[] " value="ar">
+                       <label for="ar">arabe</label><br> 
+                       <input type="checkbox" id="fr" name="long[]" value="fr"> 
+                      <label for = "fr">francais</label><br>
+                      <input type="checkbox" id="al" name="long[]" value="al"> 
+                      <label for = "al">anglais</label>
+
+                     
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> image</label>
+                    </td>
+                    <td>
+                        <input type="file" name="img" accept="image/*,video/*">
+                    </td>
+                </tr>
+                <tr>
+                    <td>   </td>
+                    <td>
+                        <input type="submit" value="valider">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+     <footer>
+        <p>route de l'aréoport km    <br>
+         4 BP 1013 Sfax tunisie     <br>
+          Tel: +21674680460   <br> 
+         Fax: +216 74680450      <br>
+         mail:contact isaas@isaas.usftn</p>
+     </footer>
+
+    
+</body>
+</html>
